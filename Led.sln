@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Led", "Led\Led.csproj", "{B2C68045-D51B-4D43-8C33-E1D780E99D5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GifGenerator", "GifGenerator\GifGenerator.csproj", "{14B4AC21-7C9F-4932-8228-CACAA36DFC29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2C68045-D51B-4D43-8C33-E1D780E99D5C}.Debug|x86.ActiveCfg = Debug|x86
+		{B2C68045-D51B-4D43-8C33-E1D780E99D5C}.Debug|x86.Build.0 = Debug|x86
+		{B2C68045-D51B-4D43-8C33-E1D780E99D5C}.Release|x86.ActiveCfg = Release|x86
+		{B2C68045-D51B-4D43-8C33-E1D780E99D5C}.Release|x86.Build.0 = Release|x86
+		{14B4AC21-7C9F-4932-8228-CACAA36DFC29}.Debug|x86.ActiveCfg = Debug|x86
+		{14B4AC21-7C9F-4932-8228-CACAA36DFC29}.Debug|x86.Build.0 = Debug|x86
+		{14B4AC21-7C9F-4932-8228-CACAA36DFC29}.Release|x86.ActiveCfg = Release|x86
+		{14B4AC21-7C9F-4932-8228-CACAA36DFC29}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
