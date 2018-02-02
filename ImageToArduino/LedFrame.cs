@@ -8,8 +8,7 @@ namespace Led
 	{
 		public LedFrame(GifFrame frame) : base(frame.Image as Bitmap)
 		{
-			//*10 to convert it to milliseconds instead of hundred of a second.
-			this.Delay = frame.Delay * 10;
+			this.Delay = (uint)frame.Delay.Milliseconds;
 		}
 
 		public uint Delay { get; private set; }

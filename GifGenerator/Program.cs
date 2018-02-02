@@ -23,10 +23,10 @@ namespace GifGenerator
 
 			using (var gif = new AnimatedGif(0))
 			{
-				gif.AddFrame(img1, 100);
-				gif.AddFrame(img2, 200);
-				gif.AddFrame(img3, 300);
-				gif.AddFrame(img4, 400);
+				gif.AddFrame(img1, new TimeSpan(0,0,1));
+				gif.AddFrame(img2, new TimeSpan(0, 0, 1));
+				gif.AddFrame(img3, new TimeSpan(0, 0, 1));
+				gif.AddFrame(img4, new TimeSpan(0, 0, 1));
 				gif.Save("test.gif");
 			}
 
